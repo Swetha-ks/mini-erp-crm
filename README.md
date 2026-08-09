@@ -101,6 +101,3 @@ A full Postman collection with example requests is included in this repository.
 - No automated test suite; all endpoints were manually verified via Postman (collection included) and the working frontend, including the stock-deduction transaction and the insufficient-stock rejection case.
 - The Accounts role does not yet have dedicated screens beyond shared read access.
 
-## Development Note
-
-This project was built with guidance from Claude (Anthropic's AI assistant) for architectural decisions, code generation, and debugging environment/tooling issues (notably a Prisma version conflict with Node 24, and Neon's free-tier auto-suspend behavior during development). All code was reviewed and understood as part of the build process.
