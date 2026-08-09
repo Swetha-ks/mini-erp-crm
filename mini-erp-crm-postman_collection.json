@@ -1,0 +1,1379 @@
+{
+  "info": {
+    "_postman_id": "09604813-aa78-496e-a814-bbae63306a64",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "56008435",
+    "_collection_link": "https://go.postman.co/collection/56008435-09604813-aa78-496e-a814-bbae63306a64?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "mini-erp-crm",
+      "item": [
+        {
+          "name": "New Request",
+          "request": {
+            "method": "GET",
+            "header": []
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/challans/6ba2f792-6a6c-47df-b097-64383ebb7450/cancel",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyNDgxMTMsImV4cCI6MTc4NjI3NjkxM30.OBWwYbDIi1WRkZCrDA6H9vd15mv9RO9RQGW7JsVG8Ac",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/challans/6ba2f792-6a6c-47df-b097-64383ebb7450/cancel",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "challans",
+                "6ba2f792-6a6c-47df-b097-64383ebb7450",
+                "cancel"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/products?q=cement",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyNDgxMTMsImV4cCI6MTc4NjI3NjkxM30.OBWwYbDIi1WRkZCrDA6H9vd15mv9RO9RQGW7JsVG8Ac",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:4000/products?q=cement",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "products"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "cement",
+                  "disabled": false
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/products?q=cement",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyNDgxMTMsImV4cCI6MTc4NjI3NjkxM30.OBWwYbDIi1WRkZCrDA6H9vd15mv9RO9RQGW7JsVG8Ac",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:4000/products?q=cement",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "products"
+              ],
+              "query": [
+                {
+                  "key": "q",
+                  "value": "cement",
+                  "disabled": false
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/customers?page=1&pageSize=5",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyNDgxMTMsImV4cCI6MTc4NjI3NjkxM30.OBWwYbDIi1WRkZCrDA6H9vd15mv9RO9RQGW7JsVG8Ac",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:4000/customers?page=1&pageSize=5",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "customers"
+              ],
+              "query": [
+                {
+                  "key": "page",
+                  "value": "1",
+                  "disabled": false
+                },
+                {
+                  "key": "pageSize",
+                  "value": "5",
+                  "disabled": false
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/products",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyNDgxMTMsImV4cCI6MTc4NjI3NjkxM30.OBWwYbDIi1WRkZCrDA6H9vd15mv9RO9RQGW7JsVG8Ac",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:4000/products",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/challans/a792b112-0f1f-4ef3-b22c-b46476c0f9a1/confirm",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyNDgxMTMsImV4cCI6MTc4NjI3NjkxM30.OBWwYbDIi1WRkZCrDA6H9vd15mv9RO9RQGW7JsVG8Ac",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/challans/a792b112-0f1f-4ef3-b22c-b46476c0f9a1/confirm",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "challans",
+                "a792b112-0f1f-4ef3-b22c-b46476c0f9a1",
+                "confirm"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/challans",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyNDgxMTMsImV4cCI6MTc4NjI3NjkxM30.OBWwYbDIi1WRkZCrDA6H9vd15mv9RO9RQGW7JsVG8Ac",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"customerId\": \"6ff79f56-5e70-4580-84ee-c4a4d3336845\",\r\n  \"items\": [\r\n    { \"productId\": \"0becd29c-b99e-46ca-8b62-5817ed2c2551\", \"quantity\": 1000 }\r\n  ]\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/challans",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "challans"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/products",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyNDgxMTMsImV4cCI6MTc4NjI3NjkxM30.OBWwYbDIi1WRkZCrDA6H9vd15mv9RO9RQGW7JsVG8Ac",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:4000/products",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/challans/6ba2f792-6a6c-47df-b097-64383ebb7450/confirm",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyNDgxMTMsImV4cCI6MTc4NjI3NjkxM30.OBWwYbDIi1WRkZCrDA6H9vd15mv9RO9RQGW7JsVG8Ac",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/challans/6ba2f792-6a6c-47df-b097-64383ebb7450/confirm",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "challans",
+                "6ba2f792-6a6c-47df-b097-64383ebb7450",
+                "confirm"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/challans",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyNDgxMTMsImV4cCI6MTc4NjI3NjkxM30.OBWwYbDIi1WRkZCrDA6H9vd15mv9RO9RQGW7JsVG8Ac",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"customerId\": \"6ff79f56-5e70-4580-84ee-c4a4d3336845\",\r\n  \"items\": [\r\n    { \"productId\": \"0becd29c-b99e-46ca-8b62-5817ed2c2551\", \"quantity\": 10 }\r\n  ]\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/challans",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "challans"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "POST http://localhost:4000/challans",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyNDgxMTMsImV4cCI6MTc4NjI3NjkxM30.OBWwYbDIi1WRkZCrDA6H9vd15mv9RO9RQGW7JsVG8Ac",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"customerId\": \"6ff79f56-5e70-4580-84ee-c4a4d3336845\",\r\n  \"items\": [\r\n    { \"productId\": \"0becd29c-b99e-46ca-8b62-5817ed2c2551\", \"quantity\": 10 }\r\n  ]\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "POST http://localhost:4000/challans",
+              "protocol": "POST http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "challans"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/challans",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyNDgxMTMsImV4cCI6MTc4NjI3NjkxM30.OBWwYbDIi1WRkZCrDA6H9vd15mv9RO9RQGW7JsVG8Ac",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"customerId\": \"6ff79f56-5e70-4580-84ee-c4a4d3336845\",\r\n  \"items\": [\r\n    { \"productId\": \"0becd29c-b99e-46ca-8b62-5817ed2c2551\", \"quantity\": 10 }\r\n  ]\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/challans",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "challans"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/challans",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyNDgxMTMsImV4cCI6MTc4NjI3NjkxM30.OBWwYbDIi1WRkZCrDA6H9vd15mv9RO9RQGW7JsVG8Ac",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"customerId\": \"PASTE_CUSTOMER_ID_HERE\",\r\n  \"items\": [\r\n    { \"productId\": \"PASTE_STEEL_ROD_PRODUCT_ID_HERE\", \"quantity\": 10 }\r\n  ]\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/challans",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "challans"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/customers",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyNDgxMTMsImV4cCI6MTc4NjI3NjkxM30.OBWwYbDIi1WRkZCrDA6H9vd15mv9RO9RQGW7JsVG8Ac",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Cement Bag 50kg\",\r\n  \"sku\": \"SKU-002\",\r\n  \"unitPrice\": 380,\r\n  \"currentStock\": 50,\r\n  \"minStockAlert\": 10\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/customers",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "customers"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/products",
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          },
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyNDgxMTMsImV4cCI6MTc4NjI3NjkxM30.OBWwYbDIi1WRkZCrDA6H9vd15mv9RO9RQGW7JsVG8Ac",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "GET",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Cement Bag 50kg\",\r\n  \"sku\": \"SKU-002\",\r\n  \"unitPrice\": 380,\r\n  \"currentStock\": 50,\r\n  \"minStockAlert\": 10\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/products",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/products",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyNDgxMTMsImV4cCI6MTc4NjI3NjkxM30.OBWwYbDIi1WRkZCrDA6H9vd15mv9RO9RQGW7JsVG8Ac",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Cement Bag 50kg\",\r\n  \"sku\": \"SKU-002\",\r\n  \"unitPrice\": 380,\r\n  \"currentStock\": 50,\r\n  \"minStockAlert\": 10\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/products",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/auth/login",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyMTM2NzIsImV4cCI6MTc4NjI0MjQ3Mn0.veClmPuikXqubx6S_HylcOn4JjKEgE7yRtoba7sQZBg",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"email\": \"admin@erp.test\",\r\n  \"password\": \"Password123\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/auth/login",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "auth",
+                "login"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/auth/login",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyMTM2NzIsImV4cCI6MTc4NjI0MjQ3Mn0.veClmPuikXqubx6S_HylcOn4JjKEgE7yRtoba7sQZBg",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"email\": \"admin@erp.test\",\r\n  \"password\": \"Password123\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/auth/login",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "auth",
+                "login"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/products",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyMTM2NzIsImV4cCI6MTc4NjI0MjQ3Mn0.veClmPuikXqubx6S_HylcOn4JjKEgE7yRtoba7sQZBg",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Steel Rod 12mm\",\r\n  \"sku\": \"SKU-001\",\r\n  \"unitPrice\": 450,\r\n  \"currentStock\": 100,\r\n  \"minStockAlert\": 20\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/products",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/customers",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyMTM2NzIsImV4cCI6MTc4NjI0MjQ3Mn0.veClmPuikXqubx6S_HylcOn4JjKEgE7yRtoba7sQZBg",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"email\": \"admin@erp.test\",\r\n  \"password\": \"Password123\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/customers",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "customers"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/customers",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyMTM2NzIsImV4cCI6MTc4NjI0MjQ3Mn0.veClmPuikXqubx6S_HylcOn4JjKEgE7yRtoba7sQZBg",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Ramesh Traders\",\r\n  \"mobile\": \"9876543210\",\r\n  \"customerType\": \"WHOLESALE\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/customers",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "customers"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/products",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyMTM2NzIsImV4cCI6MTc4NjI0MjQ3Mn0.veClmPuikXqubx6S_HylcOn4JjKEgE7yRtoba7sQZBg",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Steel Rod 12mm\",\r\n  \"sku\": \"SKU-001\",\r\n  \"unitPrice\": 450,\r\n  \"currentStock\": 100,\r\n  \"minStockAlert\": 20\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/products",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/products",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyMTM2NzIsImV4cCI6MTc4NjI0MjQ3Mn0.veClmPuikXqubx6S_HylcOn4JjKEgE7yRtoba7sQZBg",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Steel Rod 12mm\",\r\n  \"sku\": \"SKU-001\",\r\n  \"unitPrice\": 450,\r\n  \"currentStock\": 100,\r\n  \"minStockAlert\": 20\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/products",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/products",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyMTM2NzIsImV4cCI6MTc4NjI0MjQ3Mn0.veClmPuikXqubx6S_HylcOn4JjKEgE7yRtoba7sQZBg",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Steel Rod 12mm\",\r\n  \"sku\": \"SKU-001\",\r\n  \"unitPrice\": 450,\r\n  \"currentStock\": 100,\r\n  \"minStockAlert\": 20\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/products",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "products"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/auth/login",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"email\": \"admin@erp.test\",\r\n  \"password\": \"Password123\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/auth/login",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "auth",
+                "login"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/auth/login",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyMTM0MDEsImV4cCI6MTc4NjI0MjIwMX0.vGhZKk7xokfiyUzel8pIlwyDikUnxgdkI-cwSSOv2K4\",\n",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"email\": \"admin@erp.test\",\r\n  \"password\": \"Password123\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/auth/login",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "auth",
+                "login"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/auth/login",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyMTM0MDEsImV4cCI6MTc4NjI0MjIwMX0.vGhZKk7xokfiyUzel8pIlwyDikUnxgdkI-cwSSOv2K4\",\n",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"email\": \"admin@erp.test\",\r\n  \"password\": \"Password123\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/auth/login",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "auth",
+                "login"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/auth/login",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhMDNhMWUzZi1lYTIzLTQ1MDAtOTYxOS1iZTk3MGU0OGE4OWIiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3ODYyMTM0MDEsImV4cCI6MTc4NjI0MjIwMX0.vGhZKk7xokfiyUzel8pIlwyDikUnxgdkI-cwSSOv2K4\",\n",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"email\": \"admin@erp.test\",\r\n  \"password\": \"Password123\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/auth/login",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "auth",
+                "login"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/auth/register",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Admin User\",\r\n  \"email\": \"admin@erp.test\",\r\n  \"password\": \"Password123\",\r\n  \"role\": \"ADMIN\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "auth",
+                "register"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/auth/register",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"name\": \"Admin User\",\r\n  \"email\": \"admin@erp.test\",\r\n  \"password\": \"Password123\",\r\n  \"role\": \"ADMIN\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "auth",
+                "register"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "http://localhost:4000/auth/login",
+          "request": {
+            "auth": {
+              "type": "noauth"
+            },
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "disabled": false
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"email\": \"admin@erp.test\",\r\n  \"password\": \"Password123\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:4000/auth/login",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "4000",
+              "path": [
+                "auth",
+                "login"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "auth_secret_0b1l",
+      "secret": true
+    },
+    {
+      "key": "json_web_token_0b1l",
+      "secret": true
+    }
+  ]
+}
